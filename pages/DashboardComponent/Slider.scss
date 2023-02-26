@@ -1,0 +1,31 @@
+.slider {
+  height: 100vh;
+  background-color: #4267b2;
+  width: 225px;
+  padding: 10px 0;
+  margin-left: 0;
+  transition: all 0.2s;
+  position: absolute;
+  top: 0;
+  &.close {
+    margin-left: -275px;
+  }
+}
+.sidebar-list {
+  padding: 20px 0;
+}
+.logo img {
+  max-width: 130px;
+  margin: 10px 15px;
+}
+.closeToggle {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 40px !important;
+
+  @media only screen and (min-width: 998px) {
+    display: none !important;
+  }
+}

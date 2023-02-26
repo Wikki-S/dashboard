@@ -1,0 +1,35 @@
+// .auth-inner {
+//   width: 450px;
+//   min-height: 380px;
+//   margin: auto;
+//   background: var(--white-1);
+//   padding: 40px 55px 45px;
+//   border-bottom-left-radius: 15px;
+//   border-bottom-right-radius: 15px;
+//   transition: all 0.3s;
+// }
+
+// .main-container {
+//   margin: 50px 30px;
+// }
+// .inner-wrapper {
+
+//   transition: all .2s;
+//   &.open{
+//       margin-left: 225px;
+//   }
+//   &.close{
+//       margin-left: 0px;
+//   }
+//   @media only screen and (max-width:768px){
+//       &.open{
+//           // margin-left: 0;
+//       }
+//   }
+ 
+// }
+// @media only screen and (max-width:768px){
+// .inner-wrapper.open {
+//   margin-left: 0;
+// }
+// }

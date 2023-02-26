@@ -1,0 +1,55 @@
+.App-link {
+  color: #61dafb;
+}
+.main-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 100vh;
+  gap: 75px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.second-section {
+  background-color: #61dafb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account {
+  display: flex;
+  gap: 10px;
+}
+.account a {
+  text-decoration: none;
+  font-weight: 500;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-section {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .main-register {
+    flex-wrap: wrap;
+    display: block;
+  }
+  .second-section {
+    height: auto;
+  }
+}
